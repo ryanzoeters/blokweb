@@ -22,7 +22,7 @@ Ryan Zoeters
 Blauw
 
 #### Je focus:
-Surface plane
+Responsiveness
  
 </details>
 
@@ -36,15 +36,15 @@ Surface plane
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.jbl.nl/
+https://www.fillingpieces.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Homepagina  
-<img src="images\homepage.png" width="375px" alt="omschrijving van de pagina">
+<img src="images\HomepageFP.PNG" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Koptelefoons
-<img src="images/detailpage.png" width="375px" alt="omschrijving van de pagina">
+<img src="images\DetailpageFP.PNG" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -80,6 +80,8 @@ Koptelefoons
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+Begin gemaakt aan de JBL website. Heb tot nu toe alleen nog maar de html van de homepage af kunnen krijgen.
+
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -94,9 +96,9 @@ samen met je groepje opstellen
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
+- punt 1: Misschien toch een andere website kiezen om uit te werken.
+- punt 2: De opdrachten nog een keer doorlopen en gelijk toepassen op mijn eigen website.
+- nog een punt: probeer een planning te maken.
 - ...
 
 </details>
@@ -112,6 +114,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+Had moeite om de grid te krijgen zoals ik wilde, maar heb de plaatjes uiteindelijk wel responsive kunnen krijgen. Ben nog steeds aan het stoeien met uitklap menu's.
 
 
 ### Agenda voor meeting

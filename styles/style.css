@@ -1,5 +1,76 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
 
+/* html {
+  min-width: 980px;
+  max-width: 1280px;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5em;
+}
+
+header {
+  background-color: white;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* header nav {
+  position: fixed;
+  top: 0;
+} */
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul:first-child {
+  left: 0;
+}
+
+main {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+}
+
+main a:first-child {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+main a img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 2px;
+  padding-left: 2em;
+  padding: 0.7em;
+  background-color: lightgray;
+}
+
+footer ul li a {
+  color: grey;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}

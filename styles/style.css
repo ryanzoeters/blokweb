@@ -21,6 +21,14 @@ ul {
   list-style-type: none;
 }
 
+/* zorgt ervoor dat de header bovenaan de pagina blijft */
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
 nav {
   padding: 2em;
   display: flex;
@@ -35,6 +43,7 @@ a {
   text-decoration: none;
 }
 
+/* stijling voor het logo */
 .logo {
   color: black;
   text-transform: uppercase;
@@ -43,6 +52,7 @@ a {
   text-decoration: none;
 }
 
+/* stijling voor de nav op desktop versie */
 .nav-links {
   display: flex;
   justify-content: space-around;
@@ -57,6 +67,7 @@ a {
   font-size: 14px;
 }
 
+/* stijling voor het menu */
 .burger {
   display: none;
   cursor: pointer;
@@ -70,16 +81,16 @@ a {
   transition: all 0.3s ease;
 }
 
+/* veranderd de width van de nav in de mobiele versie */
 @media screen and (max-width:1024px) {
   .nav-links {
-    /* was 50%*/
     width: 80%;
   }
 }
 
+/* verbergt de mobiele nav zodat je er niet naartoe kan scrollen */
 @media screen and (max-width:768px) {
   body {
-    /* verbergt de mobiele nav zodat je er niet naartoe kan scrollen */
     overflow-x: hidden;
   }
 
@@ -112,6 +123,7 @@ a {
   transform: translateX(0%);
 }
 
+/* zorgt ervoor dat de links in het mobiele menu langzaam verschijnen */
 @keyframes navLinkFade {
   from {
     opacity: 0;
@@ -124,6 +136,7 @@ a {
   }
 }
 
+/* veranderd het pannekoek menu in een kruisje wanneer het geklikt word */
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
@@ -136,12 +149,7 @@ a {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-main {
-  align-items: center;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
-}
-
+/* stijling voor de images op de detail pagina */
 main figure {
   margin: 1em;
   margin-bottom: 5em;
@@ -156,7 +164,44 @@ figcaption {
   letter-spacing: 2px;
 }
 
-main section {
+/* spreekt het eerste plaatje op de homepagina aan */
+main section:first-of-type {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+/* spreekt het eerste plaatje op de homepagina aan */
+main section:first-of-type {
+  width: 100%;
+  height: 15em;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* voor de verschaling van het eerste plaatje op de homepagina */
+@media screen and (min-width: 600px) {
+  main section:first-of-type {
+    height: 30em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  main section:first-of-type {
+    height: 30em;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  main section:first-of-type {
+    height: 35em;
+  }
+}
+
+/* alle fotos na de eerste worden op deze manier gestijld */
+main section:nth-of-type(2) {
+  display: block;
   align-items: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50em, 1fr));
@@ -167,9 +212,11 @@ main section a img {
   height: auto;
 }
 
-main a:first-child {
-  grid-column-start: 1;
-  grid-column-end: -1;
+/* display van de detail pagina */
+main div {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
 }
 
 main a img {
@@ -179,6 +226,7 @@ main a img {
   margin: 0;
 }
 
+/* styling voor de footer */
 footer ul li {
   margin-bottom: 2px;
   padding-left: 3em;
@@ -197,23 +245,39 @@ footer ul li a {
 footer p {
   color: rgb(46, 45, 45);
   margin-bottom: 1em;
+  font-size: 13px;
 }
 
+/* styling voor de form */
 footer form {
   padding-bottom: 1em;
 }
 
+#e-mail {
+  padding: 8px;
+  width: 15em;
+  border: 1px solid black;
+}
+
+#submit {
+  padding: 9px;
+  border: 0;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* maakt de columns kleiner wanneer de pagina verschaalt wordt. */
 @media all and (max-width: 500px) {
-  main section {
-    align-items: center;
-    display: grid;
+  main section:nth-of-type(2) {
     grid-template-columns: repeat(auto-fit, minmax(30em, 1fr));
   }
+}
 
-  main a:first-child {
-    object-fit: cover;
-    object-position: center;
-    height: auto;
-    width: 800px;
+@media all and (max-width: 900px) {
+  main div {
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    font-size: 10px;
   }
 }

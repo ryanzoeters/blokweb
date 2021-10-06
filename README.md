@@ -43,7 +43,7 @@ Homepagina
 <img src="images\HomepageFP.PNG" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Koptelefoons
+Schoenen
 <img src="images\DetailpageFP.PNG" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -78,7 +78,7 @@ Koptelefoons
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+hier dit ging goed & dit was lastig
 
 Begin gemaakt aan de JBL website. Heb tot nu toe alleen nog maar de html van de homepage af kunnen krijgen.
 
@@ -86,11 +86,11 @@ Begin gemaakt aan de JBL website. Heb tot nu toe alleen nog maar de html van de 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Ryan                  | Mack                      | Sjors                 | Joost                 |
+| achterstand inhalen   | achterstand inhalen       | achterstand inhalen   | achterstand inhalen   |
+|                       |                           |                       |                       |
+|                       |                           |                       |                       |
+|                       |                           |                       |                       |
 
 
 ### Verslag van meeting
@@ -98,8 +98,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - punt 1: Misschien toch een andere website kiezen om uit te werken.
 - punt 2: De opdrachten nog een keer doorlopen en gelijk toepassen op mijn eigen website.
-- nog een punt: probeer een planning te maken.
-- ...
+- nog een punt: probeer een planning te maken en eventueel naar school gaan om te werken.
 
 </details>
 
@@ -121,20 +120,18 @@ Had moeite om de grid te krijgen zoals ik wilde, maar heb de plaatjes uiteindeli
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Ryan                  | Mack                      | Sjors                 | Joost                 |
+| Problemen met foto's  | algemene vragen           | algemene vragen       | algemene vragen       |
+| responsive maken      |                           |                       |                       |
+|                       |                           |                       |                       |
+|                       |                           |                       |                       |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- punt 1: Kijk of de fotos allemaal dezelfde maat hebben en eventueel de grootte aanpassen.
+- punt 2: beginnen aan de navbar
 
 </details>
 
@@ -190,20 +187,19 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Ryan                  | Mack                      | Sjors                 | Joost                 |
+|  Dingen die nog       | algemene vragen           | algemene vragen       | algemene vragen       |
+|  toegevoegd kunnen    |                           |                       |                       |
+|  worden               |                           |                       |                       |
+|                       |                           |                       |                       |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- punt 1: Proberen om tekst zelf over de foto's te doen 
+- punt 2: Hulp tekst in het input veld zetten voor mensen die snel afgeleid raken
+- nog een punt: Probeer de eerste foto op de homepagina te laten inzoomen wanneer de pagina verschaalt.
 
 </details>
 
@@ -217,11 +213,22 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+hier dit ging goed & dit was lastig 
+
+Het maken van de footer en de detail pagina ging vrij makkelijk en toen ik eenmaal grid en media query begreep werd het responsive maken ook
+steeds makkelijker.
+
+Ik had moeite in het begin met het maken van een nette responsive navigatie bar. Ook had ik erg veel moeite met het responsive maken van de 
+eerste foto op de home pagina.
+
+<img src="screenshots\2021-10-06 (5).png">
+<img src="screenshots\homepagina1.png">
 
 ### Screenshot(s)
-
-hier screenshot(s) van je eindresultaat
+<img src="screenshots\homepagina1.png">
+<img src="screenshots\homepagina2.png">
+<img src="screenshots\detailpagina1.png">
+<img src="screenshots\detailpagina2.png">
 
 </details>
 
@@ -236,8 +243,8 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. bron 1: https://www.fillingpieces.com/
+2. bron 2: https://www.youtube.com/watch?v=gXkqy0b4M5g
+3. bron 3: Student assistent (Bo Heins)
 
 </details>

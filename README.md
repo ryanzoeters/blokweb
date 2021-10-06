@@ -151,27 +151,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+Website werd in een logische volgorde afgelezen met een screenreader en was goed te bedienen met muis en toetsenbord.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
 #### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Contrast van sommige lichte foto's met witte tekst waren lastig te zien.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Dit kan opgelost worden door de foto donkerder te maken of door de tekst een andere kleur te geven.
 
 
 #### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Scrollen en op knoppen klikken is extreem lastig met een motorieke beperking
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Buttons groter maken voor de gebruiker.
 
 
 #### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+Het is lastig te onthouden wat je aan het doen bent als je voortdurend afgeleid bent (tijdens het hooghouden van de ballon).
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Kan input teksten toevoegen aan de sign-up zodat je niet vergeet wat je daar moet invullen.
 
 </details>
 
